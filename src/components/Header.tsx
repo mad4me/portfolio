@@ -6,10 +6,9 @@ import { INavLink } from '../types/common';
 export const Header = () => {
   const navLink: INavLink[] = [
     { name: 'Sobre mim', path: '/about' },
-    /*{ name: 'Competências', path: '/skills' },
-    { name: 'Educação', path: '/education' },*/
     { name: 'Portfólio', path: '/portfolio' },
     { name: 'Contactar', path: '/contact' },
+    { name: 'Pitch', path: '/pitch' },
   ];
 
   return (

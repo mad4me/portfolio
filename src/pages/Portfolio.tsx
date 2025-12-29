@@ -6,34 +6,10 @@ import { ProjectCard } from '../components/ProjectCard';
 
 export const Portfolio = () => {
   const { section } = SectionMotion;
-  const sectionDescription = 'List of my portfolio projects';
+  const sectionDescription = 'Lista dos meus projetos desenvolvidos';
   const portfolios = [
     {
       id: 1,
-      name: 'Portfolio Project',
-      image: '/portfolio.webp',
-      link: 'https://codebayu.com',
-    },
-    {
-      id: 2,
-      name: 'Portfolio Project',
-      image: '/portfolio.webp',
-      link: 'https://codebayu.com',
-    },
-    {
-      id: 12,
-      name: 'Portfolio Project',
-      image: '/portfolio.webp',
-      link: 'https://codebayu.com',
-    },
-    {
-      id: 13,
-      name: 'Portfolio Project',
-      image: '/portfolio.webp',
-      link: 'https://codebayu.com',
-    },
-    {
-      id: 15,
       name: 'Portfolio Project',
       image: '/portfolio.webp',
       link: 'https://codebayu.com',

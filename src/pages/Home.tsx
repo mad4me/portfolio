@@ -22,10 +22,8 @@ export const Home = () => {
         <h2 className="text-teal-500 font-bold text-xl md:text-3xl">
           Programação de Sistemas de Informação
         </h2>
-        <p className="text-center md:text-start text-xs md:text-base">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam,
-          neque illo. Vel repudiandae culpa dolorum, accusantium odit rerum
-          commodi totam?
+        <p className="text-center md:text-start text-xs md:text-base mr-24">
+          Gosto de criar algo que resolva problemas e dedico-me à programação para aplicar e testar continuamente as minhas habilidades.
         </p>
         <Link to="./romao-cv.pdf" target="_blank">
           <motion.div
@@ -42,7 +40,7 @@ export const Home = () => {
         initial={wrapImg.initial}
         animate={wrapImg.animated}
         transition={wrapImg.transition}
-        className="flex flex-1 items-center justify-center bg-gradient-to-bl from-emerald-500 via-emerald-900 to-black overflow-hidden"
+        className="flex flex-1 items-center justify-center to-black overflow-hidden"
       >
         <motion.img
           initial={image.initial}
