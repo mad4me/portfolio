@@ -12,6 +12,7 @@ export const Portfolio = () => {
       id: 1,
       name: 'Portfolio Project',
       image: '/portfolio.webp',
+      description: 'A project',
       link: 'https://codebayu.com',
     },
   ];
