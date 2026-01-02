@@ -5,7 +5,7 @@ import { IconBrandCodepen } from '@tabler/icons-react';
 
 export const Pitch = () => {
   const { section } = SectionMotion;
-  const sectionDescription = 'O meu pitch para apresentar!';
+  const sectionDescription = 'O meu pitch!';
   return (
     <motion.section
       initial={section.initial}
